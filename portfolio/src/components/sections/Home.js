@@ -1,15 +1,12 @@
 import '../../styles/Home.css'
-import Foto from '../../assets/Yo.png'
-
 function Home(){
     return(
         <div className='Home'>
            <div className='Left'>
-           <img alt='Una foto mia' src= '../../assets/Yo.png'></img>
            
            </div>
            <div className='Right'>
-               <h2 style={{fontSize:'50px', marginLeft:0 }}>
+               <h2 style={{fontSize:'50px', margin: 'none'}}>
                 HOLA,
                </h2>
                <p>

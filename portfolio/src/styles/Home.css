@@ -1,3 +1,29 @@
-.Home{
-   
+.Home {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Left{
+    background-image: url('../assets/Mancha.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+
+}
+
+.Right {
+    width: 40%;
+
+}
+
+.Button {
+    background-color: #D497F1;
+    border-radius: 10px;
+    padding: 2% 5%;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0.15em;
+    color: white;
+    box-shadow: 5px 5px 3px #00000048;
 }

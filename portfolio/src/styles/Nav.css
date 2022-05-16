@@ -1,0 +1,17 @@
+.Nav {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+.Links{
+    font-weight: 500; 
+    margin: 2%;
+    font-size: 20px;
+    
+}
+
+.Links :hover{
+    color: blue;
+}

@@ -1,17 +1,28 @@
 .Nav {
+    max-width: 100%;
     padding: 1% 2%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    
   }
+.NavLinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 40%;
+}
+
 .Links{
+    min-width:10%;
     font-weight: 500; 
-    margin: 2%;
+    padding-right: 2%;
     font-size: 20px;
+    white-space: nowrap;
     
 }
 
 .Links :hover{
-    color: blue;
+   text-decoration: underline;
 }

@@ -1,23 +1,25 @@
 .Home {
     display: flex;
     justify-content: space-evenly;
-    height: auto;
+    height: 100vh;
 }
 .Left{
     background-image: url('../assets/Yo.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50%;
+    width: 40%;
     min-height: 500px;
 }
 
 
 .Right {
+    padding-top: 5% ;
     width: 40%;
 
 }
 
 .Button {
+    margin: 1%;
     margin-top: 5%;
     background-color: #D497F1;
     border-radius: 10px;

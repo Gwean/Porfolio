@@ -1,4 +1,4 @@
-
+import Card from "../subsections/Card";
 
 function Work(){
     return(
@@ -6,6 +6,10 @@ function Work(){
        <h2>
           Work
        </h2>
+       <div style={{display : 'flex', justifyContent : 'space-evenly', width : '100%'}}>
+           <Card/>
+           <Card/>
+       </div>
         </div>
     );
 }
